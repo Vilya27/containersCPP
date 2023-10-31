@@ -1,0 +1,1217 @@
+In file included from tests/test_for_set/set_tests.cc:6:
+tests/test_for_set/../../headers/s21_set.h:5:1: error: version control conflict marker in file
+    5 | <<<<<<< HEAD
+      | ^~~~~~~
+In file included from /usr/include/c++/11/list:64,
+                 from tests/test_for_set/../../headers/s21_set.h:6,
+                 from tests/test_for_set/set_tests.cc:6:
+/usr/include/c++/11/bits/list.tcc:66:15: error: expected initializer before ‘<’ token
+   66 |     _List_base<_Tp, _Alloc>::
+      |               ^
+/usr/include/c++/11/bits/list.tcc:88:16: error: expected nested-name-specifier before ‘list’
+   88 |       typename list<_Tp, _Alloc>::iterator
+      |                ^~~~
+/usr/include/c++/11/bits/list.tcc:88:16: error: too many template-parameter-lists
+/usr/include/c++/11/bits/list.tcc:100:14: error: expected nested-name-specifier before ‘list’
+  100 |     typename list<_Tp, _Alloc>::iterator
+      |              ^~~~
+/usr/include/c++/11/bits/list.tcc:100:18: error: expected initializer before ‘<’ token
+  100 |     typename list<_Tp, _Alloc>::iterator
+      |                  ^
+/usr/include/c++/11/bits/list.tcc:116:14: error: expected nested-name-specifier before ‘list’
+  116 |     typename list<_Tp, _Alloc>::iterator
+      |              ^~~~
+/usr/include/c++/11/bits/list.tcc:116:18: error: expected initializer before ‘<’ token
+  116 |     typename list<_Tp, _Alloc>::iterator
+      |                  ^
+/usr/include/c++/11/bits/list.tcc:132:16: error: expected nested-name-specifier before ‘list’
+  132 |       typename list<_Tp, _Alloc>::iterator
+      |                ^~~~
+/usr/include/c++/11/bits/list.tcc:132:16: error: too many template-parameter-lists
+/usr/include/c++/11/bits/list.tcc:149:14: error: expected nested-name-specifier before ‘list’
+  149 |     typename list<_Tp, _Alloc>::iterator
+      |              ^~~~
+/usr/include/c++/11/bits/list.tcc:149:18: error: expected initializer before ‘<’ token
+  149 |     typename list<_Tp, _Alloc>::iterator
+      |                  ^
+/usr/include/c++/11/bits/list.tcc:174:14: error: expected nested-name-specifier before ‘list’
+  174 |     typename list<_Tp, _Alloc>::const_iterator
+      |              ^~~~
+/usr/include/c++/11/bits/list.tcc:174:18: error: expected initializer before ‘<’ token
+  174 |     typename list<_Tp, _Alloc>::const_iterator
+      |                  ^
+/usr/include/c++/11/bits/list.tcc:211:9: error: expected initializer before ‘<’ token
+  211 |     list<_Tp, _Alloc>::
+      |         ^
+/usr/include/c++/11/bits/list.tcc:230:9: error: expected initializer before ‘<’ token
+  230 |     list<_Tp, _Alloc>::
+      |         ^
+/usr/include/c++/11/bits/list.tcc:242:9: error: expected initializer before ‘<’ token
+  242 |     list<_Tp, _Alloc>::
+      |         ^
+/usr/include/c++/11/bits/list.tcc:266:5: error: ‘list’ does not name a type
+  266 |     list<_Tp, _Alloc>&
+      |     ^~~~
+/usr/include/c++/11/bits/list.tcc:293:9: error: expected initializer before ‘<’ token
+  293 |     list<_Tp, _Alloc>::
+      |         ^
+/usr/include/c++/11/bits/list.tcc:308:7: error: too many template-parameter-lists
+  308 |       list<_Tp, _Alloc>::
+      |       ^~~~
+/usr/include/c++/11/bits/list.tcc:330:14: error: expected nested-name-specifier before ‘list’
+  330 |     typename list<_Tp, _Alloc>::__remove_return_type
+      |              ^~~~
+/usr/include/c++/11/bits/list.tcc:330:18: error: expected initializer before ‘<’ token
+  330 |     typename list<_Tp, _Alloc>::__remove_return_type
+      |                  ^
+/usr/include/c++/11/bits/list.tcc:366:14: error: expected nested-name-specifier before ‘list’
+  366 |     typename list<_Tp, _Alloc>::__remove_return_type
+      |              ^~~~
+/usr/include/c++/11/bits/list.tcc:366:18: error: expected initializer before ‘<’ token
+  366 |     typename list<_Tp, _Alloc>::__remove_return_type
+      |                  ^
+/usr/include/c++/11/bits/list.tcc:402:9: error: expected initializer before ‘<’ token
+  402 |     list<_Tp, _Alloc>::
+      |         ^
+/usr/include/c++/11/bits/list.tcc:449:7: error: too many template-parameter-lists
+  449 |       list<_Tp, _Alloc>::
+      |       ^~~~
+/usr/include/c++/11/bits/list.tcc:496:9: error: expected initializer before ‘<’ token
+  496 |     list<_Tp, _Alloc>::
+      |         ^
+/usr/include/c++/11/bits/list.tcc:542:16: error: expected nested-name-specifier before ‘list’
+  542 |       typename list<_Tp, _Alloc>::__remove_return_type
+      |                ^~~~
+/usr/include/c++/11/bits/list.tcc:542:16: error: too many template-parameter-lists
+/usr/include/c++/11/bits/list.tcc:575:16: error: expected nested-name-specifier before ‘list’
+  575 |       typename list<_Tp, _Alloc>::__remove_return_type
+      |                ^~~~
+/usr/include/c++/11/bits/list.tcc:575:16: error: too many template-parameter-lists
+/usr/include/c++/11/bits/list.tcc:614:7: error: too many template-parameter-lists
+  614 |       list<_Tp, _Alloc>::
+      |       ^~~~
+In file included from tests/test_for_set/../../headers/s21_set.h:6,
+                 from tests/test_for_set/set_tests.cc:6:
+/usr/include/c++/11/list:78:25: error: ‘list’ in namespace ‘std’ does not name a template type
+   78 |       using list = std::list<_Tp, polymorphic_allocator<_Tp>>;
+      |                         ^~~~
+/usr/include/c++/11/list:65:1: note: ‘std::list’ is defined in header ‘<list>’; did you forget to ‘#include <list>’?
+   64 | #include <bits/list.tcc>
+  +++ |+#include <list>
+   65 | 
+In file included from tests/test_for_set/set_tests.cc:6:
+tests/test_for_set/../../headers/s21_set.h:7:1: error: version control conflict marker in file
+    7 | =======
+      | ^~~~~~~
+In file included from tests/test_for_set/../../headers/s21_list.h:150,
+                 from tests/test_for_set/../../headers/s21_set.h:9,
+                 from tests/test_for_set/set_tests.cc:6:
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_constructors.tpp:3:1: error: ‘list’ does not name a type
+    3 | list<value_type>::list()
+      | ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_constructors.tpp:7:1: error: ‘list’ does not name a type
+    7 | list<value_type>::list(size_type n)
+      | ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_constructors.tpp:20:1: error: ‘list’ does not name a type
+   20 | list<value_type>::list(std::initializer_list<value_type> const& items)
+      | ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_constructors.tpp:30:1: error: ‘list’ does not name a type
+   30 | list<value_type>::list(const list& l)
+      | ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_constructors.tpp:42:1: error: ‘list’ does not name a type
+   42 | list<value_type>::list(list&& l)
+      | ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_constructors.tpp:48:1: error: ‘list’ does not name a type
+   48 | list<value_type>::~list() {
+      | ^~~~
+In file included from tests/test_for_set/../../headers/s21_list.h:151,
+                 from tests/test_for_set/../../headers/s21_set.h:9,
+                 from tests/test_for_set/set_tests.cc:6:
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:6:10: error: expected nested-name-specifier before ‘list’
+    6 | typename list<T>::const_iterator list<T>::find(const_reference value) const {
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:6:14: error: expected initializer before ‘<’ token
+    6 | typename list<T>::const_iterator list<T>::find(const_reference value) const {
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:17:10: error: expected nested-name-specifier before ‘list’
+   17 | typename list<value_type>::const_iterator list<value_type>::begin()
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:17:14: error: expected initializer before ‘<’ token
+   17 | typename list<value_type>::const_iterator list<value_type>::begin()
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:27:10: error: expected nested-name-specifier before ‘list’
+   27 | typename list<value_type>::const_iterator list<value_type>::end()
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:27:14: error: expected initializer before ‘<’ token
+   27 | typename list<value_type>::const_iterator list<value_type>::end()
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:33:10: error: expected nested-name-specifier before ‘list’
+   33 | typename list<value_type>::const_reference list<value_type>::front() const {
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:33:14: error: expected initializer before ‘<’ token
+   33 | typename list<value_type>::const_reference list<value_type>::front() const {
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:42:10: error: expected nested-name-specifier before ‘list’
+   42 | typename list<value_type>::const_reference list<value_type>::back() const {
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:42:14: error: expected initializer before ‘<’ token
+   42 | typename list<value_type>::const_reference list<value_type>::back() const {
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:51:10: error: expected nested-name-specifier before ‘list’
+   51 | typename list<value_type>::iterator list<value_type>::begin() {
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:51:14: error: expected initializer before ‘<’ token
+   51 | typename list<value_type>::iterator list<value_type>::begin() {
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:60:10: error: expected nested-name-specifier before ‘list’
+   60 | typename list<value_type>::iterator list<value_type>::end() {
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:60:14: error: expected initializer before ‘<’ token
+   60 | typename list<value_type>::iterator list<value_type>::end() {
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:65:10: error: expected nested-name-specifier before ‘list’
+   65 | typename list<value_type>::const_iterator list<value_type>::cbegin()
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:65:14: error: expected initializer before ‘<’ token
+   65 | typename list<value_type>::const_iterator list<value_type>::cbegin()
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:75:10: error: expected nested-name-specifier before ‘list’
+   75 | typename list<value_type>::const_iterator list<value_type>::cend()
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:75:14: error: expected initializer before ‘<’ token
+   75 | typename list<value_type>::const_iterator list<value_type>::cend()
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:81:10: error: expected initializer before ‘<’ token
+   81 | bool list<value_type>::empty() const {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:86:10: error: expected nested-name-specifier before ‘list’
+   86 | typename list<value_type>::size_type list<value_type>::size() const {
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:86:14: error: expected initializer before ‘<’ token
+   86 | typename list<value_type>::size_type list<value_type>::size() const {
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:91:10: error: expected nested-name-specifier before ‘list’
+   91 | typename list<value_type>::size_type list<value_type>::max_size() const {
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:91:14: error: expected initializer before ‘<’ token
+   91 | typename list<value_type>::size_type list<value_type>::max_size() const {
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:96:10: error: expected initializer before ‘<’ token
+   96 | void list<value_type>::clear() {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:103:10: error: expected nested-name-specifier before ‘list’
+  103 | typename list<value_type>::iterator list<value_type>::insert(
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:103:14: error: expected initializer before ‘<’ token
+  103 | typename list<value_type>::iterator list<value_type>::insert(
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:129:10: error: expected initializer before ‘<’ token
+  129 | void list<value_type>::erase(iterator pos) {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:156:10: error: expected initializer before ‘<’ token
+  156 | void list<value_type>::push_back(const_reference value) {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:171:10: error: expected initializer before ‘<’ token
+  171 | void list<value_type>::pop_back() {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:189:10: error: expected initializer before ‘<’ token
+  189 | void list<value_type>::push_front(const_reference value) {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:204:10: error: expected initializer before ‘<’ token
+  204 | void list<value_type>::pop_front() {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:222:10: error: expected initializer before ‘<’ token
+  222 | void list<value_type>::swap(list& other) {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:230:10: error: expected initializer before ‘<’ token
+  230 | void list<value_type>::merge(list& other) {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:261:10: error: expected initializer before ‘<’ token
+  261 | void list<value_type>::reverse() {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:273:10: error: expected initializer before ‘<’ token
+  273 | void list<value_type>::unique() {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:287:10: error: expected initializer before ‘<’ token
+  287 | void list<value_type>::splice(const_iterator pos, list& other) {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:297:10: error: expected initializer before ‘<’ token
+  297 | void list<value_type>::sort() {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:311:10: error: expected initializer before ‘<’ token
+  311 | void list<value_type>::next_connect() {
+      |          ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_methods.tpp:326:10: error: expected initializer before ‘<’ token
+  326 | void list<value_type>::print() {
+      |          ^
+In file included from tests/test_for_set/../../headers/s21_list.h:152,
+                 from tests/test_for_set/../../headers/s21_set.h:9,
+                 from tests/test_for_set/set_tests.cc:6:
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_operators.tpp:5:10: error: expected nested-name-specifier before ‘list’
+    5 | typename list<value_type>::list& list<value_type>::operator=(
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_operators.tpp:5:14: error: expected initializer before ‘<’ token
+    5 | typename list<value_type>::list& list<value_type>::operator=(
+      |              ^
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_operators.tpp:17:10: error: expected nested-name-specifier before ‘list’
+   17 | typename list<value_type>::list& list<value_type>::operator=(list&& l) {
+      |          ^~~~
+tests/test_for_set/../../headers/../sources/s21_list/s21_list_operators.tpp:17:14: error: expected initializer before ‘<’ token
+   17 | typename list<value_type>::list& list<value_type>::operator=(list&& l) {
+      |              ^
+In file included from tests/test_for_set/set_tests.cc:6:
+tests/test_for_set/../../headers/s21_set.h:10:1: error: version control conflict marker in file
+   10 | >>>>>>> ec1409eac33b9aa10cddf98906888821875be5a4
+      | ^~~~~~~
+In file included from tests/test_for_set/../../headers/s21_set.h:83,
+                 from tests/test_for_set/set_tests.cc:6:
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_constructors.tpp:3:1: error: ‘set’ does not name a type
+    3 | set<Key>::set() {}
+      | ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_constructors.tpp:6:1: error: ‘set’ does not name a type
+    6 | set<Key>::set(std::initializer_list<value_type> const& items) : data_{items} {
+      | ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_constructors.tpp:6:78: error: expected unqualified-id before ‘{’ token
+    6 | set<Key>::set(std::initializer_list<value_type> const& items) : data_{items} {
+      |                                                                              ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_constructors.tpp:12:1: error: ‘set’ does not name a type
+   12 | set<Key>::set(const set& other) : data_{other.data_} {}
+      | ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_constructors.tpp:12:54: error: expected unqualified-id before ‘{’ token
+   12 | set<Key>::set(const set& other) : data_{other.data_} {}
+      |                                                      ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_constructors.tpp:15:1: error: ‘set’ does not name a type
+   15 | set<Key>::set(set&& other) noexcept : data_{std::move(other.data_)} {}
+      | ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_constructors.tpp:15:69: error: expected unqualified-id before ‘{’ token
+   15 | set<Key>::set(set&& other) noexcept : data_{std::move(other.data_)} {}
+      |                                                                     ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_constructors.tpp:18:1: error: ‘set’ does not name a type
+   18 | set<Key>::~set() {}
+      | ^~~
+In file included from tests/test_for_set/../../headers/s21_set.h:84,
+                 from tests/test_for_set/set_tests.cc:6:
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:5:1: error: version control conflict marker in file
+    5 | <<<<<<< HEAD
+      | ^~~~~~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:17:1: error: version control conflict marker in file
+   17 | >>>>>>> ec1409eac33b9aa10cddf98906888821875be5a4
+      | ^~~~~~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:23:10: error: expected nested-name-specifier before ‘set’
+   23 | typename set<Key>::const_iterator set<Key>::begin() const {
+      |          ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:23:13: error: expected initializer before ‘<’ token
+   23 | typename set<Key>::const_iterator set<Key>::begin() const {
+      |             ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:28:10: error: expected nested-name-specifier before ‘set’
+   28 | typename set<Key>::iterator set<Key>::end() {
+      |          ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:28:13: error: expected initializer before ‘<’ token
+   28 | typename set<Key>::iterator set<Key>::end() {
+      |             ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:33:10: error: expected nested-name-specifier before ‘set’
+   33 | typename set<Key>::const_iterator set<Key>::end() const {
+      |          ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:33:13: error: expected initializer before ‘<’ token
+   33 | typename set<Key>::const_iterator set<Key>::end() const {
+      |             ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:38:9: error: expected initializer before ‘<’ token
+   38 | bool set<Key>::empty() const {
+      |         ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:43:10: error: expected nested-name-specifier before ‘set’
+   43 | typename set<Key>::size_type set<Key>::size() const {
+      |          ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:43:13: error: expected initializer before ‘<’ token
+   43 | typename set<Key>::size_type set<Key>::size() const {
+      |             ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:48:10: error: expected nested-name-specifier before ‘set’
+   48 | typename set<Key>::size_type set<Key>::max_size() const {
+      |          ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:48:13: error: expected initializer before ‘<’ token
+   48 | typename set<Key>::size_type set<Key>::max_size() const {
+      |             ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:53:9: error: expected initializer before ‘<’ token
+   53 | void set<Key>::clear() {
+      |         ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:58:44: error: wrong number of template arguments (1, should be 2)
+   58 | std::pair<typename set<Key>::iterator, bool> set<Key>::insert(
+      |                                            ^
+In file included from /usr/include/c++/11/bits/stl_algobase.h:64,
+                 from /usr/include/c++/11/memory:63,
+                 from /usr/include/gtest/gtest.h:57,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_pair.h:211:12: note: provided for ‘template<class _T1, class _T2> struct std::pair’
+  211 |     struct pair
+      |            ^~~~
+In file included from tests/test_for_set/../../headers/s21_set.h:84,
+                 from tests/test_for_set/set_tests.cc:6:
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:58:49: error: expected initializer before ‘<’ token
+   58 | std::pair<typename set<Key>::iterator, bool> set<Key>::insert(
+      |                                                 ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:84:9: error: expected initializer before ‘<’ token
+   84 | void set<Key>::erase(iterator pos) {
+      |         ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:92:9: error: expected initializer before ‘<’ token
+   92 | void set<Key>::swap(set& other) {
+      |         ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:98:9: error: expected initializer before ‘<’ token
+   98 | void set<Key>::merge(set& other) {
+      |         ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:139:10: error: expected nested-name-specifier before ‘set’
+  139 | typename set<Key>::iterator set<Key>::find(const Key& key) {
+      |          ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:139:13: error: expected initializer before ‘<’ token
+  139 | typename set<Key>::iterator set<Key>::find(const Key& key) {
+      |             ^
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_methods.tpp:150:9: error: expected initializer before ‘<’ token
+  150 | bool set<Key>::contains(const Key& key) const {
+      |         ^
+In file included from tests/test_for_set/../../headers/s21_set.h:85,
+                 from tests/test_for_set/set_tests.cc:6:
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_operators.tpp:4:1: error: ‘set’ does not name a type
+    4 | set<Key>& set<Key>::operator=(const set& other) {
+      | ^~~
+tests/test_for_set/../../headers/../sources/s21_set/s21_set_operators.tpp:13:1: error: ‘set’ does not name a type
+   13 | set<Key>& set<Key>::operator=(set&& other) noexcept {
+      | ^~~
+tests/test_for_set/set_tests.cc: In member function ‘virtual void setTest_DefaultConstructor_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:13:8: error: ‘set’ is not a member of ‘s21’
+   13 |   s21::set<int> s;
+      |        ^~~
+tests/test_for_set/set_tests.cc:13:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:13:12: error: expected primary-expression before ‘int’
+   13 |   s21::set<int> s;
+      |            ^~~
+In file included from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:14:15: error: ‘s’ was not declared in this scope
+   14 |   EXPECT_TRUE(s.empty());
+      |               ^
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:15:13: error: ‘s’ was not declared in this scope
+   15 |   EXPECT_EQ(s.size(), 0);
+      |             ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void setTest_InitializerListConstructor_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:19:8: error: ‘set’ is not a member of ‘s21’
+   19 |   s21::set<int> s = {1, 2, 3};
+      |        ^~~
+tests/test_for_set/set_tests.cc:19:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:19:12: error: expected primary-expression before ‘int’
+   19 |   s21::set<int> s = {1, 2, 3};
+      |            ^~~
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:20:13: error: ‘s’ was not declared in this scope
+   20 |   EXPECT_EQ(s.size(), 3);
+      |             ^
+In file included from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:21:15: error: ‘s’ was not declared in this scope
+   21 |   EXPECT_TRUE(s.contains(1));
+      |               ^
+tests/test_for_set/set_tests.cc:22:15: error: ‘s’ was not declared in this scope
+   22 |   EXPECT_TRUE(s.contains(2));
+      |               ^
+tests/test_for_set/set_tests.cc:23:15: error: ‘s’ was not declared in this scope
+   23 |   EXPECT_TRUE(s.contains(3));
+      |               ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void setTest_CopyConstructor_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:27:8: error: ‘set’ is not a member of ‘s21’
+   27 |   s21::set<int> s1 = {1, 2, 3};
+      |        ^~~
+tests/test_for_set/set_tests.cc:27:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:27:12: error: expected primary-expression before ‘int’
+   27 |   s21::set<int> s1 = {1, 2, 3};
+      |            ^~~
+tests/test_for_set/set_tests.cc:28:8: error: ‘set’ is not a member of ‘s21’
+   28 |   s21::set<int> s2(s1);
+      |        ^~~
+tests/test_for_set/set_tests.cc:28:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:28:12: error: expected primary-expression before ‘int’
+   28 |   s21::set<int> s2(s1);
+      |            ^~~
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:29:13: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+   29 |   EXPECT_EQ(s1.size(), s2.size());
+      |             ^~
+tests/test_for_set/set_tests.cc:29:24: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+   29 |   EXPECT_EQ(s1.size(), s2.size());
+      |                        ^~
+tests/test_for_set/set_tests.cc: In member function ‘virtual void setTest_MoveConstructor_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:33:8: error: ‘set’ is not a member of ‘s21’
+   33 |   s21::set<int> s1 = {1, 2, 3};
+      |        ^~~
+tests/test_for_set/set_tests.cc:33:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:33:12: error: expected primary-expression before ‘int’
+   33 |   s21::set<int> s1 = {1, 2, 3};
+      |            ^~~
+tests/test_for_set/set_tests.cc:34:8: error: ‘set’ is not a member of ‘s21’
+   34 |   s21::set<int> s2(std::move(s1));
+      |        ^~~
+tests/test_for_set/set_tests.cc:34:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:34:12: error: expected primary-expression before ‘int’
+   34 |   s21::set<int> s2(std::move(s1));
+      |            ^~~
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:35:13: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+   35 |   EXPECT_EQ(s2.size(), 3);
+      |             ^~
+In file included from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:36:15: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+   36 |   EXPECT_TRUE(s2.contains(1));
+      |               ^~
+tests/test_for_set/set_tests.cc:37:15: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+   37 |   EXPECT_TRUE(s2.contains(2));
+      |               ^~
+tests/test_for_set/set_tests.cc:38:15: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+   38 |   EXPECT_TRUE(s2.contains(3));
+      |               ^~
+tests/test_for_set/set_tests.cc: In member function ‘virtual void setTest_SizeMaxSize_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:42:8: error: ‘set’ is not a member of ‘s21’
+   42 |   s21::set<int> s{3, 5, 1, 4, 2};
+      |        ^~~
+tests/test_for_set/set_tests.cc:42:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:42:12: error: expected primary-expression before ‘int’
+   42 |   s21::set<int> s{3, 5, 1, 4, 2};
+      |            ^~~
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:44:13: error: ‘s’ was not declared in this scope; did you mean ‘s1’?
+   44 |   ASSERT_EQ(s.size(), 5);
+      |             ^
+tests/test_for_set/set_tests.cc:45:13: error: ‘s’ was not declared in this scope; did you mean ‘s1’?
+   45 |   ASSERT_GE(s.max_size(), s1.max_size());
+      |             ^
+tests/test_for_set/set_tests.cc:47:3: error: ‘s’ was not declared in this scope; did you mean ‘s1’?
+   47 |   s.clear();
+      |   ^
+      |   s1
+tests/test_for_set/set_tests.cc: In member function ‘virtual void setTest_Erase_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:51:8: error: ‘set’ is not a member of ‘s21’
+   51 |   s21::set<int> s{1, 2, 3, 4, 5};
+      |        ^~~
+tests/test_for_set/set_tests.cc:51:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:51:12: error: expected primary-expression before ‘int’
+   51 |   s21::set<int> s{1, 2, 3, 4, 5};
+      |            ^~~
+tests/test_for_set/set_tests.cc:52:13: error: ‘s’ was not declared in this scope
+   52 |   auto it = s.find(3);
+      |             ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void setTest_Swap_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:59:8: error: ‘set’ is not a member of ‘s21’
+   59 |   s21::set<int> s1{1, 2, 3};
+      |        ^~~
+tests/test_for_set/set_tests.cc:59:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:59:12: error: expected primary-expression before ‘int’
+   59 |   s21::set<int> s1{1, 2, 3};
+      |            ^~~
+tests/test_for_set/set_tests.cc:60:8: error: ‘set’ is not a member of ‘s21’
+   60 |   s21::set<int> s2{4, 5, 6};
+      |        ^~~
+tests/test_for_set/set_tests.cc:60:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:60:12: error: expected primary-expression before ‘int’
+   60 |   s21::set<int> s2{4, 5, 6};
+      |            ^~~
+tests/test_for_set/set_tests.cc:61:3: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+   61 |   s1.swap(s2);
+      |   ^~
+      |   s21
+tests/test_for_set/set_tests.cc:61:11: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+   61 |   s1.swap(s2);
+      |           ^~
+      |           s21
+tests/test_for_set/set_tests.cc: In member function ‘virtual void setTest_Merge_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:69:8: error: ‘set’ is not a member of ‘s21’
+   69 |   s21::set<int> s1{1, 2, 3};
+      |        ^~~
+tests/test_for_set/set_tests.cc:69:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:69:12: error: expected primary-expression before ‘int’
+   69 |   s21::set<int> s1{1, 2, 3};
+      |            ^~~
+tests/test_for_set/set_tests.cc:70:8: error: ‘set’ is not a member of ‘s21’
+   70 |   s21::set<int> s2{3, 4, 5};
+      |        ^~~
+tests/test_for_set/set_tests.cc:70:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:70:12: error: expected primary-expression before ‘int’
+   70 |   s21::set<int> s2{3, 4, 5};
+      |            ^~~
+tests/test_for_set/set_tests.cc:71:3: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+   71 |   s1.merge(s2);
+      |   ^~
+      |   s21
+tests/test_for_set/set_tests.cc:71:12: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+   71 |   s1.merge(s2);
+      |            ^~
+      |            s21
+tests/test_for_set/set_tests.cc: In member function ‘virtual void setTest_Find_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:79:8: error: ‘set’ is not a member of ‘s21’
+   79 |   s21::set<int> s{1, 2, 3};
+      |        ^~~
+tests/test_for_set/set_tests.cc:79:8: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:79:12: error: expected primary-expression before ‘int’
+   79 |   s21::set<int> s{1, 2, 3};
+      |            ^~~
+tests/test_for_set/set_tests.cc:80:14: error: ‘s’ was not declared in this scope
+   80 |   auto it1 = s.find(2);
+      |              ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_DefaultConstructor_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:90:3: error: ‘set’ was not declared in this scope
+   90 |   set<int> s;
+      |   ^~~
+tests/test_for_set/set_tests.cc:90:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:90:7: error: expected primary-expression before ‘int’
+   90 |   set<int> s;
+      |       ^~~
+In file included from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:91:15: error: ‘s’ was not declared in this scope
+   91 |   ASSERT_TRUE(s.empty());
+      |               ^
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:92:16: error: ‘s’ was not declared in this scope
+   92 |   ASSERT_EQ(0, s.size());
+      |                ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_InitializerListConstructor_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:97:3: error: ‘set’ was not declared in this scope
+   97 |   set<int> s{1, 2, 3};
+      |   ^~~
+tests/test_for_set/set_tests.cc:97:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:97:7: error: expected primary-expression before ‘int’
+   97 |   set<int> s{1, 2, 3};
+      |       ^~~
+In file included from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:98:16: error: ‘s’ was not declared in this scope
+   98 |   ASSERT_FALSE(s.empty());
+      |                ^
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:99:16: error: ‘s’ was not declared in this scope
+   99 |   ASSERT_EQ(3, s.size());
+      |                ^
+In file included from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:100:15: error: ‘s’ was not declared in this scope
+  100 |   ASSERT_TRUE(s.contains(1));
+      |               ^
+tests/test_for_set/set_tests.cc:101:15: error: ‘s’ was not declared in this scope
+  101 |   ASSERT_TRUE(s.contains(2));
+      |               ^
+tests/test_for_set/set_tests.cc:102:15: error: ‘s’ was not declared in this scope
+  102 |   ASSERT_TRUE(s.contains(3));
+      |               ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_CopyConstructor_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:107:3: error: ‘set’ was not declared in this scope
+  107 |   set<int> s1{1, 2, 3};
+      |   ^~~
+tests/test_for_set/set_tests.cc:107:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:107:7: error: expected primary-expression before ‘int’
+  107 |   set<int> s1{1, 2, 3};
+      |       ^~~
+tests/test_for_set/set_tests.cc:108:7: error: expected primary-expression before ‘int’
+  108 |   set<int> s2(s1);
+      |       ^~~
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:109:13: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+  109 |   ASSERT_EQ(s1.size(), s2.size());
+      |             ^~
+tests/test_for_set/set_tests.cc:109:24: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  109 |   ASSERT_EQ(s1.size(), s2.size());
+      |                        ^~
+In file included from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:110:15: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+  110 |   ASSERT_TRUE(s1.contains(1));
+      |               ^~
+tests/test_for_set/set_tests.cc:111:15: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  111 |   ASSERT_TRUE(s2.contains(1));
+      |               ^~
+tests/test_for_set/set_tests.cc:112:15: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+  112 |   ASSERT_TRUE(s1.contains(2));
+      |               ^~
+tests/test_for_set/set_tests.cc:113:15: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  113 |   ASSERT_TRUE(s2.contains(2));
+      |               ^~
+tests/test_for_set/set_tests.cc:114:15: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+  114 |   ASSERT_TRUE(s1.contains(3));
+      |               ^~
+tests/test_for_set/set_tests.cc:115:15: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  115 |   ASSERT_TRUE(s2.contains(3));
+      |               ^~
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_MoveConstructor_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:120:3: error: ‘set’ was not declared in this scope
+  120 |   set<int> s1{1, 2, 3};
+      |   ^~~
+tests/test_for_set/set_tests.cc:120:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:120:7: error: expected primary-expression before ‘int’
+  120 |   set<int> s1{1, 2, 3};
+      |       ^~~
+tests/test_for_set/set_tests.cc:121:7: error: expected primary-expression before ‘int’
+  121 |   set<int> s2(std::move(s1));
+      |       ^~~
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:122:16: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  122 |   ASSERT_EQ(3, s2.size());
+      |                ^~
+In file included from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:123:15: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  123 |   ASSERT_TRUE(s2.contains(1));
+      |               ^~
+tests/test_for_set/set_tests.cc:124:15: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  124 |   ASSERT_TRUE(s2.contains(2));
+      |               ^~
+tests/test_for_set/set_tests.cc:125:15: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  125 |   ASSERT_TRUE(s2.contains(3));
+      |               ^~
+tests/test_for_set/set_tests.cc:126:15: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+  126 |   ASSERT_TRUE(s1.empty());
+      |               ^~
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_MoveAssignmentOperator_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:131:3: error: ‘set’ was not declared in this scope
+  131 |   set<int> s1{1, 2, 3};
+      |   ^~~
+tests/test_for_set/set_tests.cc:131:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:131:7: error: expected primary-expression before ‘int’
+  131 |   set<int> s1{1, 2, 3};
+      |       ^~~
+tests/test_for_set/set_tests.cc:132:7: error: expected primary-expression before ‘int’
+  132 |   set<int> s2;
+      |       ^~~
+tests/test_for_set/set_tests.cc:133:3: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  133 |   s2 = std::move(s1);
+      |   ^~
+      |   s21
+tests/test_for_set/set_tests.cc:133:18: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+  133 |   s2 = std::move(s1);
+      |                  ^~
+      |                  s21
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_EmptyMethod_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:142:3: error: ‘set’ was not declared in this scope
+  142 |   set<int> s;
+      |   ^~~
+tests/test_for_set/set_tests.cc:142:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:142:7: error: expected primary-expression before ‘int’
+  142 |   set<int> s;
+      |       ^~~
+In file included from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:143:15: error: ‘s’ was not declared in this scope
+  143 |   ASSERT_TRUE(s.empty());
+      |               ^
+tests/test_for_set/set_tests.cc:144:3: error: ‘s’ was not declared in this scope
+  144 |   s.insert(42);
+      |   ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_SizeMethod_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:149:3: error: ‘set’ was not declared in this scope
+  149 |   set<int> s{1, 2, 3};
+      |   ^~~
+tests/test_for_set/set_tests.cc:149:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:149:7: error: expected primary-expression before ‘int’
+  149 |   set<int> s{1, 2, 3};
+      |       ^~~
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:150:16: error: ‘s’ was not declared in this scope
+  150 |   ASSERT_EQ(3, s.size());
+      |                ^
+tests/test_for_set/set_tests.cc:151:3: error: ‘s’ was not declared in this scope
+  151 |   s.erase(s.find(2));
+      |   ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_InsertMethod_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:158:3: error: ‘set’ was not declared in this scope
+  158 |   set<int> s{1, 2, 3};
+      |   ^~~
+tests/test_for_set/set_tests.cc:158:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:158:7: error: expected primary-expression before ‘int’
+  158 |   set<int> s{1, 2, 3};
+      |       ^~~
+tests/test_for_set/set_tests.cc:159:14: error: ‘s’ was not declared in this scope
+  159 |   auto res = s.insert(4);
+      |              ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_EraseMethod_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:172:3: error: ‘set’ was not declared in this scope
+  172 |   set<int> s{1, 2, 3};
+      |   ^~~
+tests/test_for_set/set_tests.cc:172:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:172:7: error: expected primary-expression before ‘int’
+  172 |   set<int> s{1, 2, 3};
+      |       ^~~
+tests/test_for_set/set_tests.cc:173:3: error: ‘s’ was not declared in this scope
+  173 |   s.erase(s.find(2));
+      |   ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_SwapMethod_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:179:3: error: ‘set’ was not declared in this scope
+  179 |   set<int> s1{1, 2};
+      |   ^~~
+tests/test_for_set/set_tests.cc:179:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:179:7: error: expected primary-expression before ‘int’
+  179 |   set<int> s1{1, 2};
+      |       ^~~
+tests/test_for_set/set_tests.cc:180:7: error: expected primary-expression before ‘int’
+  180 |   set<int> s2{3, 4};
+      |       ^~~
+tests/test_for_set/set_tests.cc:181:3: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+  181 |   s1.swap(s2);
+      |   ^~
+      |   s21
+tests/test_for_set/set_tests.cc:181:11: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  181 |   s1.swap(s2);
+      |           ^~
+      |           s21
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_FindMethod_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:191:3: error: ‘set’ was not declared in this scope
+  191 |   set<int> s{1, 2, 3};
+      |   ^~~
+tests/test_for_set/set_tests.cc:191:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:191:7: error: expected primary-expression before ‘int’
+  191 |   set<int> s{1, 2, 3};
+      |       ^~~
+tests/test_for_set/set_tests.cc:192:13: error: ‘s’ was not declared in this scope
+  192 |   auto it = s.find(2);
+      |             ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_MergeMethod_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:200:3: error: ‘set’ was not declared in this scope
+  200 |   set<int> s1{1, 2};
+      |   ^~~
+tests/test_for_set/set_tests.cc:200:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:200:7: error: expected primary-expression before ‘int’
+  200 |   set<int> s1{1, 2};
+      |       ^~~
+tests/test_for_set/set_tests.cc:201:7: error: expected primary-expression before ‘int’
+  201 |   set<int> s2{3, 4};
+      |       ^~~
+tests/test_for_set/set_tests.cc:202:3: error: ‘s1’ was not declared in this scope; did you mean ‘s21’?
+  202 |   s1.merge(s2);
+      |   ^~
+      |   s21
+tests/test_for_set/set_tests.cc:202:12: error: ‘s2’ was not declared in this scope; did you mean ‘s21’?
+  202 |   s1.merge(s2);
+      |            ^~
+      |            s21
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_EraseFromEmptySet_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:212:3: error: ‘set’ was not declared in this scope
+  212 |   set<int> s;
+      |   ^~~
+tests/test_for_set/set_tests.cc:212:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:212:7: error: expected primary-expression before ‘int’
+  212 |   set<int> s;
+      |       ^~~
+In file included from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:213:16: error: ‘s’ was not declared in this scope
+  213 |   EXPECT_THROW(s.erase(s.begin()), std::out_of_range);
+      |                ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_MaxSize_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:217:3: error: ‘set’ was not declared in this scope
+  217 |   set<int> s;
+      |   ^~~
+tests/test_for_set/set_tests.cc:217:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:217:7: error: expected primary-expression before ‘int’
+  217 |   set<int> s;
+      |       ^~~
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:218:40: error: template argument 1 is invalid
+  218 |   ASSERT_GE(std::numeric_limits<set<int>::size_type>::max(), s.max_size());
+      |                                        ^
+tests/test_for_set/set_tests.cc:218:55: error: ‘::max’ has not been declared; did you mean ‘std::max’?
+  218 |   ASSERT_GE(std::numeric_limits<set<int>::size_type>::max(), s.max_size());
+      |                                                       ^~~
+In file included from /usr/include/c++/11/functional:65,
+                 from /usr/include/gtest/gtest-printers.h:103,
+                 from /usr/include/gtest/gtest-matchers.h:44,
+                 from /usr/include/gtest/internal/gtest-death-test-internal.h:39,
+                 from /usr/include/gtest/gtest-death-test.h:41,
+                 from /usr/include/gtest/gtest.h:64,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note: ‘std::max’ declared here
+ 3467 |     max(initializer_list<_Tp> __l, _Compare __comp)
+      |     ^~~
+In file included from /usr/include/gtest/gtest.h:387,
+                 from tests/test_for_set/set_tests.cc:2:
+tests/test_for_set/set_tests.cc:218:62: error: ‘s’ was not declared in this scope
+  218 |   ASSERT_GE(std::numeric_limits<set<int>::size_type>::max(), s.max_size());
+      |                                                              ^
+tests/test_for_set/set_tests.cc: In member function ‘virtual void MySetTest_IteratorTest_Test::TestBody()’:
+tests/test_for_set/set_tests.cc:223:3: error: ‘set’ was not declared in this scope
+  223 |   set<int> s{3, 2, 1};
+      |   ^~~
+tests/test_for_set/set_tests.cc:223:3: note: suggested alternatives:
+In file included from /usr/include/c++/11/set:61,
+                 from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/bits/stl_set.h:94:11: note:   ‘std::set’
+   94 |     class set
+      |           ^~~
+In file included from /usr/include/gtest/internal/gtest-internal.h:60,
+                 from /usr/include/gtest/gtest.h:62,
+                 from tests/test_for_set/set_tests.cc:2:
+/usr/include/c++/11/set:78:13: note:   ‘std::pmr::set’
+   78 |       using set = std::set<_Key, _Cmp, polymorphic_allocator<_Key>>;
+      |             ^~~
+tests/test_for_set/set_tests.cc:223:7: error: expected primary-expression before ‘int’
+  223 |   set<int> s{3, 2, 1};
+      |       ^~~
+tests/test_for_set/set_tests.cc:224:13: error: ‘s’ was not declared in this scope
+  224 |   auto it = s.begin();
+      |             ^
